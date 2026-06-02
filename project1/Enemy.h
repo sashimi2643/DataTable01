@@ -16,6 +16,7 @@ public:
 	int Gold;
 	int EXP;
 	Element Element;
+	int CriticalRate;
 
 	Enemy(const EnemyData& data)
 		: ID(data.ID),
@@ -26,7 +27,8 @@ public:
 		SPD(data.SPD),
 		Gold(data.Gold),
 		EXP(data.EXP),
-		Element(data.Element)
+		Element(data.Element),
+		CriticalRate(data.CriticalRate)
 	{
 	}
 };
