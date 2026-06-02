@@ -3,7 +3,7 @@
 
 // @brief 敵のクラス
 // @details
-// この構造体は、敵の基本的な属性
+// この構造体は、敵の基本的な属性を格納します。
 struct EnemyData
 {
 	int ID;
@@ -15,4 +15,4 @@ struct EnemyData
 	int Gold;
 	int EXP;
 	Element Element;
-} 
+};
