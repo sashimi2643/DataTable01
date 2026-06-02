@@ -6,7 +6,7 @@ int main()
 {
 	Enemy* enemy = EnemyFactory::CreateEnemy(1);
 
-	printf("%s EXP:%d, Gold:%d\n", enemy->Name, enemy->EXP, enemy->Gold);
+	printf("%s EXP:%d, Gold:%d, CriticalRate:%f\n", enemy->Name, enemy->EXP, enemy->Gold, enemy->CriticalRate);
 
 	delete enemy;
 

@@ -16,7 +16,7 @@ public:
 	int Gold;
 	int EXP;
 	Element Element;
-	int CriticalRate;
+	float CriticalRate;
 
 	Enemy(const EnemyData& data)
 		: ID(data.ID),

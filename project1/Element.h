@@ -6,8 +6,8 @@ enum Element
 	None,
 	Fire,
 	Water,
-	Eater,
+	Earth,
 	Wind,
 	Light,
-	Earth
+	Dark
 };
