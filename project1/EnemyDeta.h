@@ -1,7 +1,9 @@
 #pragma once
-//#include "Elemennt.h"
+#include "Element.h"
 
-
+// @brief 敵のクラス
+// @details
+// この構造体は、敵の基本的な属性
 struct EnemyData
 {
 	int ID;
