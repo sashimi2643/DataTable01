@@ -4,7 +4,7 @@
 class Enemy;
 
 // @brief 敵のっ生成を担当するファクトリークラス
-class EnemyFasctory
+class EnemyFactory
 {
 	// @brief 敵のデータを格納するテーブル
 	static const EnemyData EnemyTable[];
